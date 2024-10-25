@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+.full-screen-image {
+    width:100vw;
+    height:auto;
+    display:block;
+    clip-path: inset(40% 0 40% 0);
+    object-fit: cover
+}
+.image-container{
+    overflow:hidden;
+    display:inline-block;
+    line-height: 0; 
+}
+.text-container {
+    margin: 0 auto;
+    width: 80%; /* Tùy chỉnh chiều rộng của phần tử chứa văn bản */
+}
